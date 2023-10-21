@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Enquiry</title>
+</head>
+<body>
+    <!-- Product details -->
+    <div class="product-container">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="./images/product1.jpg" alt="product1" style="width:25%">
+            <h3>Product 1</h3>            
+            <p><button class="enquireBtn">Enquire</button></p>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="./images/product2.jpg" alt="product1" style="width:25%">
+            <h3>Product 2</h3>             
+            <p><button class="enquireBtn">Enquire</button></p>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="./images/product3.jpg" alt="product1" style="width:25%">
+            <h3>Product 3</h3>            
+            <p><button class="enquireBtn">Enquire</button></p>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product">
+            <img src="./images/product4.jpg" alt="product1" style="width:25%">
+            <h3>Product 4</h3>            
+            <p><button class="enquireBtn">Enquire</button></p>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product">
+            <img src="./images/product5.jpg" alt="product1" style="width:25%">
+            <h3>Product 5</h3>           
+            <p><button class="enquireBtn">Enquire</button></p>
+        </div>
+    </div>
+
+    <!-- Enquiry Form -->
+    <div class="enquiry-modal" id="enquiryModal">
+        <div class="enquiry-form">
+            <div id="successMessage"></div>
+            <button class="close-btn">Close</button> 
+            <form id="enquiryForm">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone" required>
+                <textarea name="message" placeholder="Message"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+            <script src="modal.js" async></script> 
+        </div>
+    </div>
+       
+    <script src="form.js"></script>  
+</body>
+</html>
